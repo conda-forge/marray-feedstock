@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export HDF5_ROOT=$LIBRARY_PREFIX
+
 mkdir build && cd build
 cmake \
 	-DWITH_CPP11=yes                        \
