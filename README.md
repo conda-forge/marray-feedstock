@@ -14,14 +14,16 @@ Summary: Marray: Fast Runtime-Flexible Multi-dimensional Arrays and Views in C++
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/marray-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/marray-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/marray-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/marray-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/marray-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/marray-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/marray-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/marray-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/marray-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/marray-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/marray-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/marray-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/marray/badges/version.svg)](https://anaconda.org/conda-forge/marray)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/marray/badges/downloads.svg)](https://anaconda.org/conda-forge/marray)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-marray-green.svg)](https://anaconda.org/conda-forge/marray) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/marray.svg)](https://anaconda.org/conda-forge/marray) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/marray.svg)](https://anaconda.org/conda-forge/marray) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/marray.svg)](https://anaconda.org/conda-forge/marray) |
 
 Installing marray
 =================
@@ -66,6 +68,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
