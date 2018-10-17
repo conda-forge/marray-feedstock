@@ -16,7 +16,7 @@ source:
     - msvc_fixes.diff
 
 build:
-  number: 1
+  number: 1001
   skip: True        # [win and py<35]
   features:
     - vc14          # [win]
